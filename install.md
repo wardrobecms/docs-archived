@@ -16,8 +16,8 @@ Wardrobe utilizes [Composer](http://getcomposer.org) to manage its dependencies.
 
 You may install Wardrobe by cloning the project and then running `composer install` command in your terminal:
 
-  git clone git@github.com:ericbarnes/wardrobe.git && cd wardrobe
-  php composer.phar install
+    git clone git@github.com:ericbarnes/wardrobe.git && cd wardrobe
+    php composer.phar install
 
 Next modify the [app/config/database.php](config-database.md) file to match your host settings. 
 
