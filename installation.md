@@ -19,7 +19,7 @@ You may install Wardrobe by cloning the project and then running `composer insta
     git clone git@github.com:ericbarnes/wardrobe.git && cd wardrobe
     php composer.phar install
 
-Next modify the [app/config/database.php](config-database.md) file to match your host settings. 
+Next modify the [app/config/database.php](/docs/database) file to match your host settings. 
 
 Finally visit `site.com/install` and follow the steps. 
 
