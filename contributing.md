@@ -2,6 +2,7 @@
 
 - [Introduction](#introduction)
 - [Pull Requests](#pull-requests)
+- [Feature Requests](#feature-requests)
 
 <a name="introduction"></a>
 ## Introduction
@@ -15,6 +16,7 @@ The pull request process differs for new features and bugs. Before sending a pul
 
 Pull requests for bugs may be sent without creating any proposal issue. If you believe that you know of a solution for a bug that has been filed on Github, please leave a comment detailing your proposed fix.
 
-### Feature Requests
+<a name="feature-requests"></a>
+## Feature Requests
 
 If you have an idea for a new feature you would like to see added to Wardrobe, you may create an issue on Github with `[Request]` in the title. The feature request will then be reviewed by a core contributor.
