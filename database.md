@@ -6,13 +6,11 @@ Inside of the database configuration file, you'll find a few relevant configurat
 
 ### Default Connection
 
-  <?php
-
-  return array(
-    // more up here
-    'default' => 'mysql',
-    // more down here
-  );
+    return array(
+        // more up here
+        'default' => 'mysql',
+        // more down here
+    );
 
 By default, Wardrobe is setup for a MySQL (`mysql`) database. However, Wardrobe can also work with the other database connections, such as PostgreSQL (`pgsql`), Microsoft SQL Server (`sqlsrv`) and SQL Lite (`sqlite`).
 
@@ -24,40 +22,38 @@ For each connection, enter your database name, username, password and any other 
 
 For instance, if the `default` connection is set to `mysql`, fill out the `mysql` section under `connections`:
 
-  <?php
+    return array(
+        // more up here
 
-  return array(
-    // more up here
+        'default' => 'mysql',
 
-    'default' => 'mysql',
+        'connections' => array(
 
-    'connections' => array(
+        'sqlite' => array(
+        /* removed for brevity */
+    ),
 
-    'sqlite' => array(
-      /* removed for brevity */
-  ),
+    'mysql' => array(
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'my_database_name',
+        'username'  => 'my_username',
+        'password'  => 'my_password',
+        'charset'   => 'utf8',
+        'collation' => 'utf8_unicode_ci',
+        'prefix'    => '',
+    ),
 
-	'mysql' => array(
-		'driver'    => 'mysql',
-		'host'      => 'localhost',
-		'database'  => 'my_database_name',
-		'username'  => 'my_username',
-		'password'  => 'my_password',
-		'charset'   => 'utf8',
-		'collation' => 'utf8_unicode_ci',
-		'prefix'    => '',
-	),
+    'pgsql' => array(
+        /* removed for brevity */
+    ),
 
-	'pgsql' => array(
-		/* removed for brevity */
-	),
-
-	'sqlsrv' => array(
-		/* removed for brevity */
-	),
+    'sqlsrv' => array(
+        /* removed for brevity */
+    ),
 
     ),
     // more down here
-  );
+    );
 
 More information on database configuration can be found in the [Laravel Documentation](http://laravel.com/docs/database#configuration).

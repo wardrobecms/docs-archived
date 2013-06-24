@@ -4,7 +4,7 @@ In order for Wardrobe to send emails for password resets and similar functionali
 
 Here are some of the relevant configurations:
 
-### From
+## From
 
 You can change the "from" address of all sent emails with the `from` setting:
 
@@ -16,7 +16,7 @@ You can change the "from" address of all sent emails with the `from` setting:
         // More down here
     );
 
-### Mail Driver
+## Mail Driver
 
 By default, the mail settings are set to the `smtp` driver:
 
@@ -29,17 +29,15 @@ By default, the mail settings are set to the `smtp` driver:
 
 Here are some of the available drivers:
 
-#### Mail
+### Mail
 
 This is the simplest option. If your web server supports sending email via PHP's `mail()` method, you can most likely simply change this setting to `mail` and be done with it.
 
-#### SMTP
+### SMTP
 
 If you have an email provider such as [Postmark](https://postmarkapp.com/), you can use the default `smtp` setting. You'll need to set a few other configurations for this to work:
 
-    <?php
-
-    return array(
+   return array(
         // More up here
         'host' => 'smtp.mailgun.org',
         'port' => 587,
@@ -56,13 +54,11 @@ Because SMTP mail often requires authentication, your email service will also gi
 2. Username
 3. Password
 
-#### Sendmail
+### Sendmail
 
 If you have Sendmail installed on your server you can use the `sendmail` driver. If you do, you should also check to make sure that the `sendmail` configuration is properly set to the location of the 'sendmail' program on your server.
 
 A sensible (common) default is used in Wardrobe:
-
-    <?php
 
     return array(
         // More up here
