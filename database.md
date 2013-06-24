@@ -1,10 +1,17 @@
 # Database Config
 
+- [Introduction](#introduction)
+- [Default Connection](#default_connection)
+
+<a name="introduction"></a>
+## Introduction
+
 You can set up your database in `app/config/database.php`.
 
 Inside of the database configuration file, you'll find a few relevant configurations:
 
-### Default Connection
+<a name="default_connection"></a>
+## Default Connection
 
     return array(
         // more up here
@@ -52,5 +59,7 @@ For instance, if the `default` connection is set to `mysql`, fill out the `mysql
         /* removed for brevity */
     ),
 
+
+## More information
 
 More information on database configuration can be found in the [Laravel Documentation](http://laravel.com/docs/database#configuration).

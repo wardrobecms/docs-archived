@@ -1,9 +1,16 @@
 # Email Config
 
+- [Introduction](#introduction)
+- [From](#from)
+- [Mail Driver](#driver)
+
+<a name="introduction"></a>
+# Introduction
 In order for Wardrobe to send emails for password resets and similar functionality, the Mail settings must be setup. You can edit these settings in `app/config/mail.php`.
 
 Here are some of the relevant configurations:
 
+<a name="from"></a>
 ## From
 
 You can change the "from" address of all sent emails with the `from` setting:
@@ -14,6 +21,7 @@ You can change the "from" address of all sent emails with the `from` setting:
         // More down here
     );
 
+<a name="driver"></a>
 ## Mail Driver
 
 By default, the mail settings are set to the `smtp` driver:
@@ -66,6 +74,6 @@ If you're unsure if `/usr/sbin/sendmail` is correct for you, you can SSH into yo
     # Outputs location, such as /usr/sbin/sendmail
     $ which sendmail
 
-### More Info
+## More Info
 
 More information on mail settings can be found in the [Laravel Documentation](http://laravel.com/docs/mail#configuration).
