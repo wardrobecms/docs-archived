@@ -52,8 +52,5 @@ For instance, if the `default` connection is set to `mysql`, fill out the `mysql
         /* removed for brevity */
     ),
 
-    ),
-    // more down here
-    );
 
 More information on database configuration can be found in the [Laravel Documentation](http://laravel.com/docs/database#configuration).

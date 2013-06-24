@@ -8,8 +8,6 @@ Here are some of the relevant configurations:
 
 You can change the "from" address of all sent emails with the `from` setting:
 
-    <?php
-
     return array(
         // More up here
         'from' => array('address' => 'john@doe.com', 'name' => 'John Doe'),
@@ -19,8 +17,6 @@ You can change the "from" address of all sent emails with the `from` setting:
 ## Mail Driver
 
 By default, the mail settings are set to the `smtp` driver:
-
-    <?php
 
     return array(
         'driver' => 'smtp',
