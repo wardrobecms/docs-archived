@@ -6,15 +6,13 @@ Inside of the database configuration file, you'll find a few relevant configurat
 
 ### Default Connection
 
-```php
-<?php
+  <?php
 
-return array(
+  return array(
     // more up here
     'default' => 'mysql',
     // more down here
-);
-```
+  );
 
 By default, Wardrobe is setup for a MySQL (`mysql`) database. However, Wardrobe can also work with the other database connections, such as PostgreSQL (`pgsql`), Microsoft SQL Server (`sqlsrv`) and SQL Lite (`sqlite`).
 
@@ -26,19 +24,18 @@ For each connection, enter your database name, username, password and any other 
 
 For instance, if the `default` connection is set to `mysql`, fill out the `mysql` section under `connections`:
 
-```php
-<?php
+  <?php
 
-return array(
+  return array(
     // more up here
 
     'default' => 'mysql',
 
     'connections' => array(
 
-	'sqlite' => array(
-		/* removed for brevity */
-	),
+    'sqlite' => array(
+      /* removed for brevity */
+  ),
 
 	'mysql' => array(
 		'driver'    => 'mysql',
@@ -61,7 +58,6 @@ return array(
 
     ),
     // more down here
-);
-```
+  );
 
 More information on database configuration can be found in the [Laravel Documentation](http://laravel.com/docs/database#configuration).

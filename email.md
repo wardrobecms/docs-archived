@@ -8,28 +8,24 @@ Here are some of the relevant configurations:
 
 You can change the "from" address of all sent emails with the `from` setting:
 
-```php
-<?php
+    <?php
 
-return array(
-    // More up here
-    'from' => array('address' => 'john@doe.com', 'name' => 'John Doe'),
-    // More down here
-);
-```
+    return array(
+        // More up here
+        'from' => array('address' => 'john@doe.com', 'name' => 'John Doe'),
+        // More down here
+    );
 
 ### Mail Driver
 
 By default, the mail settings are set to the `smtp` driver:
 
-```php
-<?php
+    <?php
 
-return array(
-    'driver' => 'smtp',
-    // More down here
-);
-```
+    return array(
+        'driver' => 'smtp',
+        // More down here
+    );
 
 Here are some of the available drivers:
 
@@ -41,18 +37,16 @@ This is the simplest option. If your web server supports sending email via PHP's
 
 If you have an email provider such as [Postmark](https://postmarkapp.com/), you can use the default `smtp` setting. You'll need to set a few other configurations for this to work:
 
-```php
-<?php
+    <?php
 
-return array(
-    // More up here
-    'host' => 'smtp.mailgun.org',
-    'port' => 587,
-    'username' => 'my-smtp-username',
-    'password' => 'my-smptp-password',
-    // More down here
-);
-```
+    return array(
+        // More up here
+        'host' => 'smtp.mailgun.org',
+        'port' => 587,
+        'username' => 'my-smtp-username',
+        'password' => 'my-smptp-password',
+        // More down here
+    );
 
 You'll need to set the `host` for your email service provider. Postmark uses the host `smtp.mailgun.org`, which is the default setting in Wardrobe. The `host` configuration will change per email service, however.
 
@@ -68,21 +62,18 @@ If you have Sendmail installed on your server you can use the `sendmail` driver.
 
 A sensible (common) default is used in Wardrobe:
 
-```php
-<?php
+    <?php
 
-return array(
-    // More up here
-    'sendmail' => '/usr/sbin/sendmail -bs',
-);
-```
+    return array(
+        // More up here
+        'sendmail' => '/usr/sbin/sendmail -bs',
+    );
 
 If you're unsure if `/usr/sbin/sendmail` is correct for you, you can SSH into your server and use the following command to output the path of the program:
 
-```bash
-# Outputs location, such as /usr/sbin/sendmail
-$ which sendmail
-```
+    # Outputs location, such as /usr/sbin/sendmail
+    $ which sendmail
 
 ### More Info
+
 More information on mail settings can be found in the [Laravel Documentation](http://laravel.com/docs/mail#configuration).
