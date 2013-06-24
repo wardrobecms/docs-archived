@@ -2,7 +2,6 @@
 
 - [Introduction](#introduction)
 - [Pull Requests](#pull-requests)
-- [Coding Guidelines](#coding-guidelines)
 
 <a name="introduction"></a>
 ## Introduction

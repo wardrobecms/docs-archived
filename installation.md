@@ -40,5 +40,5 @@ Administration requirements:
 
 - Only tested against the **latest** browsers. 
 
-If you need < ie9 support please find another project. Sorry but I don't have time to worry about anything behind the latest release. This is open source and I have better things to do than worry about old browsers. 
+> If you need < ie9 support please find another project. Sorry but I don't have time to worry about anything behind the latest release. 
 

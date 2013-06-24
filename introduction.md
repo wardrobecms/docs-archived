@@ -4,11 +4,10 @@
 - [Development Team](#development-team)
 
 <a name="philosophy"></a>
-## Wardrobe Philosophy
+## Philosophy
 
-Wardrobe is a minimal blogging system. Wardrobe attempts to make blogging simple and enjoyable by utilizing the latest technologies and keeping the administration as simple as possible.
+Wardrobe is a minimal blogging system. Wardrobe attempts to make blogging simple and enjoyable by utilizing the latest technologies and keeping the administration as simple as possible with the focus on writing.
 
-All new features should be proposed before submitting pull requests. This prevents doing work that may not get merged and allows the development team to vet features.
 
 <a name="development-team"></a>
 ## Development Team
