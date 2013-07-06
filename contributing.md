@@ -7,7 +7,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Wardrobe is free, open-source software, meaning anyone can contribute to its development and progress. Wardrobe source code is currently hosted on [Github](http://github.com), which provides an easy method for forking the project and merging your contributions.
+Wardrobe is free, open-source software, meaning anyone can contribute to its development and progress. Wardrobe source code is currently hosted on [Github](//github.com/wardrobecms), which provides an easy method for forking the project and merging your contributions.
 
 <a name="pull-requests"></a>
 ## Pull Requests
