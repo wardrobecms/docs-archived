@@ -1,4 +1,4 @@
-# Installation 
+# Installation
 
 - [Install Composer](#install-composer)
 - [Install Wardrobe](#install-wardrobe)
@@ -19,9 +19,13 @@ You may install Wardrobe by cloning the project and then running `composer insta
     git clone git@github.com:ericbarnes/wardrobe.git && cd wardrobe
     php composer.phar install
 
-Next modify the [app/config/database.php](/docs/database) file to match your host settings. 
+Next modify the [app/config/database.php](/docs/database) file to match your host settings.
 
-Finally visit `site.com/install` and follow the steps. 
+Then set the permissions on app/storage so the server has write access:
+
+    chmod 777 -R app/storage
+
+Finally visit `site.com/install` and follow the steps.
 
 ### Via Download
 
@@ -38,7 +42,7 @@ Wardrobe has a few server requirements:
 
 Administration requirements:
 
-- Only tested against the **latest** browsers. 
+- Only tested against the **latest** browsers.
 
-> If you need < ie9 support please find another project. Sorry but I don't have time to worry about anything behind the latest release. 
+> If you need < ie9 support please find another project. Sorry but I don't have time to worry about anything behind the latest release.
 
