@@ -23,7 +23,7 @@ Next modify the [app/config/database.php](/docs/database) file to match your hos
 
 Then set the permissions on app/storage so the server has write access:
 
-    chmod 777 -R app/storage
+    chmod -R 777 app/storage
 
 Finally visit `site.com/install` and follow the steps.
 
