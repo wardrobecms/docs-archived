@@ -4,6 +4,7 @@
 - [Location](#location)
 - [Config](#config)
 - [Helpers](#helpers)
+- [Searching](#searching)
 - [Syntax](#syntax)
 
 <a name="introduction"></a>
@@ -73,6 +74,15 @@ Currently it supports passing an array as a param. So if you wanted to limit to 
     @foreach (Wardrobe::posts(array('per_page' => 5)) as $item)
       {{ $item['title'] }}
     @endforeach
+
+<a name="searching"></a>
+## Searching
+
+If you wish to allow searching of posts you can add the following form to any of your theme views:
+
+    <form method="get" action="{{ url('archive') }}">
+      <input type="text" name="q" value="" placeholder="Search">
+    </form>
 
 <a name="syntax"></a>
 ## Syntax
