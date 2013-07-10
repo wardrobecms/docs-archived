@@ -25,6 +25,11 @@ Then set the permissions on app/storage so the server has write access:
 
     chmod -R 777 app/storage
 
+Depending on your server you may also need to make the following files writable as the installation writes config settings:
+
+   app/config/app.php
+   app/config/wardrobe.php
+
 Finally visit `site.com/install` and follow the steps.
 
 ### Via Download
