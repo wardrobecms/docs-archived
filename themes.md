@@ -5,6 +5,7 @@
 - [Config](#config)
 - [Helpers](#helpers)
 - [Searching](#searching)
+- [Post Tags](#posts)
 - [Syntax](#syntax)
 
 <a name="introduction"></a>
@@ -83,6 +84,20 @@ If you wish to allow searching of posts you can add the following form to any of
     <form method="get" action="{{ url('archive') }}">
       <input type="text" name="q" value="" placeholder="Search">
     </form>
+
+<a name="posts"></a>
+## Post Tags
+
+All posts can display the following tags:
+
+* {{ $post->title }} - The post title
+* {{ $post->content }} - The raw markdown content
+* {{ $post->parsed_content }} - The parsed content. Converts from markdown to html
+* {{ $post->publish_date }} - The date time of the post. Can be converted to any format such as: {{ date("M/d/Y", strtotime($post->publish_date)) }}
+* {{ $post->slug }} - The "slug" or uri string
+* {{ $post->user->first_name }} The author first name
+* {{ $post->user->last_name }} The author last name
+* {{ $post->user->email }} The author email
 
 <a name="syntax"></a>
 ## Syntax
