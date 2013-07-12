@@ -1,7 +1,7 @@
 # Writing Posts
 
 - [Introduction](#introduction)
-- [Drag and Drop](#drag-drop)
+- [Drag and Drop Markdown Files](#drag-drop-md-files)
 - [Post Slug](#slug)
 - [Post Author](#author)
 - [Status](#status)
@@ -13,8 +13,8 @@
 
 Wardrobe is designed to keep the focus on writing and because of this all writing options are tucked away as they are secondary to your content. This page will highlight all these extra options.
 
-<a name="drag-drop"></a>
-## Drag and Drop
+<a name="drag-drop-md-files"></a>
+## Drag and Drop Markdown Files
 
 Prefer to write locally? Wardrobe supports drag and drop posting. Locally create a new file with this structure:
 
