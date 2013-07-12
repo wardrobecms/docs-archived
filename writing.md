@@ -1,6 +1,7 @@
 # Writing Posts
 
 - [Introduction](#introduction)
+- [Markdown](#markdown)
 - [Drag and Drop Markdown Files](#drag-drop-md-files)
 - [Post Slug](#slug)
 - [Post Author](#author)
@@ -12,6 +13,14 @@
 ## Introduction
 
 Wardrobe is designed to keep the focus on writing and because of this all writing options are tucked away as they are secondary to your content. This page will highlight all these extra options.
+
+<a name="markdown"></a>
+## Markdown
+
+Wardrobe supports all the typical markdown syntax as well as [markdown extra](http://michelf.ca/projects/php-markdown/extra/)
+
+This gives you the ability to add new markup such as footnotes, tables, and definition lists. 
+
 
 <a name="drag-drop-md-files"></a>
 ## Drag and Drop Markdown Files
