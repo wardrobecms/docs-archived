@@ -4,9 +4,9 @@
 - Getting Started
     - [Installation](/docs/installation)
     - [Configuration](/docs/config)
-- Learning More
     - [Database](/docs/database)
     - [Email](/docs/email)
     - [Wardrobe Config](/docs/wardrobe)
-- Themes
-    - [Overview](/docs/themes)
+- Learning More
+    - [Writing](/docs/writing)
+    - [Themes](/docs/themes)
