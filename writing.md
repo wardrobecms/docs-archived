@@ -8,7 +8,7 @@
 - [Publish Date](#publish-date)
 
 <a name="introduction"></a>
-## introduction
+## Introduction
 
 Wardrobe is designed to keep the focus on writing and because of this all writing options are tucked away as they are secondary to your content. This page will highlight all these extra options.
 
