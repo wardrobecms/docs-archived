@@ -27,7 +27,9 @@ Prefer to write locally? Wardrobe supports drag and drop posting. Locally create
 
     This is the *markdown* content
 
-Save it and then drag and drop into your wardrobe admin. You will then be forwarded to the Write page with all the fields filled out. This gives you an opportunity to verify all the fields and content is correct before saving.
+Save it and then drag and drop into your wardrobe admin. You will then be forwarded to the write page with all the fields filled out. This gives you an opportunity to verify all the fields and content is correct before saving.
+
+> Please note that none of the fields are required. This example just shows all the current available options
 
 <a name="slug"></a>
 ## Post Slug
