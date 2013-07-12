@@ -1,6 +1,7 @@
 # Writing Posts
 
 - [Introduction](#introduction)
+- [Drag and Drop](#drag-drop)
 - [Post Slug](#slug)
 - [Post Author](#author)
 - [Status](#status)
@@ -11,6 +12,22 @@
 ## Introduction
 
 Wardrobe is designed to keep the focus on writing and because of this all writing options are tucked away as they are secondary to your content. This page will highlight all these extra options.
+
+<a name="drag-drop"></a>
+## Drag and Drop
+
+Prefer to write locally? Wardrobe supports drag and drop posting. Locally create a new file with this structure:
+
+    ---
+    title: My Title
+    slug: my-title
+    date: Tomorrow 9am
+    tags: [sample, post]
+    ---
+
+    This is the *markdown* content
+
+Save it and then drag and drop into your wardrobe admin. You will then be forwarded to the Write page with all the fields filled out. This gives you an opportunity to verify all the fields and content is correct before saving.
 
 <a name="slug"></a>
 ## Post Slug
