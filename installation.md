@@ -24,7 +24,7 @@ Next modify the [app/config/database.php](/docs/database) file to match your hos
 Then set the permissions on the following folders so the server has write access:
 
     chmod -R 777 app/storage
-    chmode 777 public/img
+    chmod 777 public/img
 
 Depending on your server you may also need to make the following files writable as the installation writes config settings:
 
