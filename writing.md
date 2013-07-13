@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Markdown](#markdown)
 - [Drag and Drop Markdown Files](#drag-drop-md-files)
+- [Drag and Drop Images](#drag-drop-images)
 - [Post Slug](#slug)
 - [Post Author](#author)
 - [Status](#status)
@@ -19,7 +20,7 @@ Wardrobe is designed to keep the focus on writing and because of this all writin
 
 Wardrobe supports all the typical markdown syntax as well as [markdown extra](http://michelf.ca/projects/php-markdown/extra/)
 
-This gives you the ability to add new markup such as footnotes, tables, and definition lists. 
+This gives you the ability to add new markup such as footnotes, tables, and definition lists.
 
 
 <a name="drag-drop-md-files"></a>
@@ -39,6 +40,13 @@ Prefer to write locally? Wardrobe supports drag and drop posting. Locally create
 Save it and then drag and drop into your wardrobe admin. You will then be forwarded to the write page with all the fields filled out. This gives you an opportunity to verify all the fields and content is correct before saving.
 
 > Please note that none of the fields are required. This example just shows all the current available options
+
+<a name="drag-drop-images"></a>
+## Drag and Drop Images
+
+If you want to add an image to your post you can drag and drop an image from local computer into the writing content area and it will automatically upload and insert the markdown image syntax with the path already set.
+
+Behind the scenes the image is just moved into the public/img directory and no processing takes place. This way you have full flexibility to size the image as you want inside a graphic program.
 
 <a name="slug"></a>
 ## Post Slug
