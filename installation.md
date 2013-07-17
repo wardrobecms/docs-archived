@@ -1,23 +1,33 @@
 # Installation
 
-- [Install Composer](#install-composer)
-- [Install Wardrobe](#install-wardrobe)
+- [Download  Wardrobe](#download-wardrobe)
+  - [Via Git and Composer](#git-composer) 
+  - [Via Download](#download)
+- [Setup Configuration](#set_config)
 - [Requirements](#requirements)
 
-<a name="install-composer"></a>
-## Install Composer
+<a name="download-wardrobe"></a>
+## Download Wardrobe
+
+<a name="git-composer"></a>
+### Via Git and Composer
+
 
 Wardrobe utilizes [Composer](http://getcomposer.org) to manage its dependencies. First, download a copy of the `composer.phar`. Once you have the PHAR archive, you can either keep it in your local project directory or move to `usr/local/bin` to use it globally on your system. On Windows, you can use the Composer [Windows installer](https://getcomposer.org/Composer-Setup.exe).
 
-<a name="install-wardrobe"></a>
-## Install Wardrobe
-
-### Via Git and Composer
 
 You may install Wardrobe by cloning the project and then running `composer install` command in your terminal:
 
     git clone git@github.com:ericbarnes/wardrobe.git && cd wardrobe
     php composer.phar install
+
+<a name="download"></a>
+### Via Download
+
+Coming soon!
+
+<a name="set_config"></a>
+## Setup the Configuration
 
 Next modify the [app/config/database.php](/docs/database) file to match your host settings.
 
@@ -32,10 +42,6 @@ Depending on your server you may also need to make the following files writable 
     app/config/wardrobe.php
 
 Finally visit `site.com/install` and follow the steps.
-
-### Via Download
-
-Coming soon!
 
 <a name="requirements"></a>
 ## Requirements
