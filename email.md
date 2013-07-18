@@ -41,7 +41,7 @@ This is the simplest option. If your web server supports sending email via PHP's
 
 If you have an email provider such as [Postmark](https://postmarkapp.com/), you can use the default `smtp` setting. You'll need to set a few other configurations for this to work:
 
-   return array(
+    return array(
         // More up here
         'host' => 'smtp.mailgun.org',
         'port' => 587,
