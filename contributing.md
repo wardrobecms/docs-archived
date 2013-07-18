@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Pull Requests](#pull-requests)
 - [Feature Requests](#feature-requests)
+- [Documentation](#documentation)
 
 <a name="introduction"></a>
 ## Introduction
@@ -20,3 +21,8 @@ Pull requests for bugs may be sent without creating any proposal issue. If you b
 ## Feature Requests
 
 If you have an idea for a new feature you would like to see added to Wardrobe, you may create an issue on Github with `[Request]` in the title or the request label. The feature request will then be reviewed by a core contributor.
+
+<a name="documentation"></a>
+## Documentation
+
+If you find any issues with the documentation or want to help improve it. You can do so via the [documentation repo](https://github.com/wardrobecms/docs).
