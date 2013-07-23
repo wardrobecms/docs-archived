@@ -4,6 +4,7 @@
 - [Pull Requests](#pull-requests)
 - [Feature Requests](#feature-requests)
 - [Documentation](#documentation)
+- [Tranlsations](#translations)
 
 <a name="introduction"></a>
 ## Introduction
@@ -26,3 +27,8 @@ If you have an idea for a new feature you would like to see added to Wardrobe, y
 ## Documentation
 
 If you find any issues with the documentation or want to help improve it. You can do so via the [documentation repo](https://github.com/wardrobecms/docs).
+
+<a name="translations"></a>
+## Translations
+
+If you wish to translate Wardrobe we have a repository designated to house all of the various language files. You can find this at [https://github.com/wardrobecms/locales](https://github.com/wardrobecms/locales).
