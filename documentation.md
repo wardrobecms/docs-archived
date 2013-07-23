@@ -7,6 +7,7 @@
     - [Database](/docs/database)
     - [Email](/docs/email)
     - [Wardrobe Config](/docs/wardrobe)
+    - [Localization](/docs/localization)
 - Learning More
     - [Writing](/docs/writing)
     - [Themes](/docs/themes)
