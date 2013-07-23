@@ -12,7 +12,7 @@ Wardrobe allows you to run the administration in your locale by adding new trans
 <a name="download"></a>
 ## Download
 
-You can download all of the localization files from [github]()https://github.com/wardrobecms/locales). After downloading overwrite your app/lang directory with these.
+You can download all of the localization files from [github](https://github.com/wardrobecms/locales). After downloading overwrite your app/lang directory with these.
 
 <a name="config"></a>
 ## Change Config
