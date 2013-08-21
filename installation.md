@@ -1,7 +1,6 @@
 # Installation
 
 - [Install  Wardrobe](#install-wardrobe)
-  - [Via Git and Composer](#git-composer)
 - [Setup Configuration](#set_config)
 - [Requirements](#requirements)
 
