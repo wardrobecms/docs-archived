@@ -11,6 +11,10 @@ Wardrobe utilizes [Composer](http://getcomposer.org) to manage its dependencies.
 
 Once composer is setup you can install wardrobe by running:
 
+    composer create-project wardrobe/wardrobe
+
+Or if you prefer to live on the edge:
+
     composer create-project wardrobe/wardrobe --stability=dev
 
 <a name="set_config"></a>
