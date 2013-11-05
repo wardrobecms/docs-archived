@@ -27,7 +27,8 @@ Then set the permissions on the following folders so the server has write access
     chmod -R 777 app/storage
     chmod 777 public/img
 
-Finally visit `site.com/install` and follow the steps.
+Finally visit `site.com/install` and follow the steps. After finishing the install you can visit site.com/wardrobe to
+access the admin area.
 
 <a name="requirements"></a>
 ## Requirements
